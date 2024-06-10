@@ -1,1 +1,1 @@
-# Syntaxt_project
+# SentimentAnalysis_project
