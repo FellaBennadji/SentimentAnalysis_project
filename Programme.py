@@ -48,11 +48,7 @@ def get_aspect_emb(token):
     max_aspect = scores[0][0] if max_score >= 0.5 else None
     return max_aspect
 
-######################################################################################################
-# Ne pas modifier le code ci-dessus
-# Rajoutez votre code d'extractions après ce commentaire
-# vous devez utiliser la méthode get_aspect_emb(token) définie ci-dessus pour savoir si un token
-# est un terme d'aspect et (quel aspect)
+
 ######################################################################################################
 with open(sys.argv[1], 'r', encoding = 'UTF-8') as tf: ## chargement des textes dans une liste
     textes = tf.read().split('\n')
