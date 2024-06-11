@@ -5,14 +5,15 @@ This project implements a sentiment analysis model for evaluating restaurant rev
 ## Installation
 ### Prerequisites
 
-    Python 3.x
-    Gensim
-    SpaCy
-    SciPy
+* Python 3.x
+* Gensim
+* SpaCy
+* SciPy
 
 ### Setup
 
 1. Clone the repository:
+   
 ```
 git clone https://github.com/yourusername/restaurant-sentiment-analysis.git
 cd restaurant-sentiment-analysis
@@ -45,15 +46,15 @@ Results are saved in resultats.json.
 
 ### Files
 
-    sentiment_analysis.py: Main script.
-    frWac_non_lem_no_postag_no_phrase_200_skip_cut100.bin: Word embeddings (not included).
-    reviews.txt: Input file.
-    resultats.json: Output file.
+* sentiment_analysis.py: Main script.
+* frWac_non_lem_no_postag_no_phrase_200_skip_cut100.bin: Word embeddings (not included).
+* reviews.txt: Input file.
+* resultats.json: Output file.
 
 ### Functionality
 
-    Loads word embeddings and SpaCy model.
-    Defines aspect keywords for food, drinks, and service.
-    Calculates similarity between words and aspect keywords.
-    Identifies aspect terms and associated sentiments in reviews.
-    Saves results in JSON format.
+* Loads word embeddings and SpaCy model.
+* Defines aspect keywords for food, drinks, and service.
+* Calculates similarity between words and aspect keywords.
+* Identifies aspect terms and associated sentiments in reviews.
+* Saves results in JSON format.
